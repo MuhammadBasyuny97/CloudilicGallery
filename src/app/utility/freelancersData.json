@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Mohamed Basyuny",
+    "photo": "https://www.recordnet.com/gcdn/presto/2021/03/22/NRCD/9d9dd9e4-e84a-402e-ba8f-daa659e6e6c5-PhotoWord_003.JPG?width=660&height=425&fit=crop&format=pjpg&auto=webp",
+    "image": "/freelancer.png",
+    "level": "Level 1",
+    "rate": 4.5,
+    "Role": "UI/UX Designer",
+    "reviews": 10,
+    "price": 50
+  },
+  {
+    "id": 2,
+    "name": "Mohamed Hassan",
+    "photo": "https://buffer.com/resources/content/images/2024/11/free-stock-image-sites.png",
+    "image": "/freelancer.png",
+    "level": "Level 2",
+    "rate": 3,
+    "Role": "Photographer",
+    "reviews": 20,
+    "price": 100
+  },
+  {
+    "id": 3,
+    "name": "Mohamed Ibrahim",
+    "photo": "https://media.istockphoto.com/id/2186774354/photo/woman-taking-photo-with-mobile-phone.jpg?b=1&s=612x612&w=0&k=20&c=jhdhlxjyc8YuPVNYFWfF7c1Q1tm5HVraANMp7K89i8A=",
+    "image": "/freelancer.png",
+    "level": "Level 3",
+    "rate": 4.5,
+    "Role": "UI/UX Designer",
+    "reviews": 15,
+    "price": 150
+  },
+  {
+    "id": 4,
+    "name": "Mohamed Ibrahim",
+    "photo": "https://media.istockphoto.com/id/645926912/photo/making-the-sunset-last-forever.jpg?s=612x612&w=0&k=20&c=zVBAk9wg1KMU5U4_2oQFRczQD4tru2o-BnPThLGtB8Y=",
+    "image": "/freelancer.png",
+    "level": "Level 3",
+    "rate": 4.5,
+    "Role": "UI/UX Designer",
+    "reviews": 15,
+    "price": 150
+  },
+  {
+    "id": 5,
+    "name": "Andrew ",
+    "photo": "https://img.freepik.com/premium-photo/photographer-sunset_29084-2366.jpg",
+    "image": "/freelancer.png",
+    "level": "Level 3",
+    "rate": 4.5,
+    "Role": "UI/UX Designer",
+    "reviews": 15,
+    "price": 150
+  },
+  {
+    "id": 6,
+    "name": " Adel Aly",
+    "photo": "https://img.freepik.com/premium-photo/happy-man-standing-cliff-sunset_146671-11200.jpg",
+    "image": "/freelancer.png",
+    "level": "Level 3",
+    "rate": 4.5,
+    "Role": "UI/UX Designer",
+    "reviews": 15,
+    "price": 150
+  },
+  {
+    "id": 7,
+    "name": "John Doe ",
+    "photo": "https://img.freepik.com/premium-photo/silhouette-man-against-sky-sunset_1048944-15759094.jpg",
+    "image": "/freelancer.png",
+    "level": "Level 3",
+    "rate": 4.5,
+    "Role": "UI/UX Designer",
+    "reviews": 15,
+    "price": 150
+  },
+  {
+    "id": 8,
+    "name": "Sameh ",
+    "photo": "https://img.freepik.com/premium-photo/rear-view-silhouette-man-standing-mountain-against-sky-sunset_1048944-21927640.jpg",
+    "image": "/freelancer.png",
+    "level": "Level 3",
+    "rate": 4.5,
+    "Role": "UI/UX Designer",
+    "reviews": 15,
+    "price": 150
+  },
+  {
+    "id": 9,
+    "name": "Tarek Ibrahim",
+    "photo": "https://img.freepik.com/premium-photo/silhouette-man-standing-mountain-against-sky-sunset_1048944-24212004.jpg?w=360",
+    "image": "/freelancer.png",
+    "level": "Level 3",
+    "rate": 4.5,
+    "Role": "UI/UX Designer",
+    "reviews": 15,
+    "price": 150
+  },
+  {
+    "id": 10,
+    "name": "Ahemd Ibrahim",
+    "photo": "https://img.freepik.com/premium-photo/silhouette-man-standing-mountain-against-sky-sunset_1048944-27949226.jpg?w=360",
+    "image": "/freelancer.png",
+    "level": "Level 3",
+    "rate": 4.5,
+    "Role": "UI/UX Designer",
+    "reviews": 15,
+    "price": 150
+  }
+]
