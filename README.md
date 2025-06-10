@@ -30,7 +30,7 @@ npm install
 # 3. Run the development server
 npm run dev
 
-# App will be available at http://localhost:3000
+# App will be available at http://localhost:3000 
 
-
+# App will be available at https://cloudilic-gallery-r1l5.vercel.app/freelancers
 
