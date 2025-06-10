@@ -13,23 +13,7 @@ A responsive web application built with Next.js, Tailwind CSS, and TypeScript. I
 - **Lucide React** – Icons
 - **Vercel** – Deployment
 
----
-src/
-│
-├── app/                     # App Router pages
-│   ├── freelancers
-│   └── category
-│   ├── client
-│   └── company
-│   ├── category
-│   └── businesssolutions
-├   ├── utility
-│   └── public              # Static assets
-│  
-├── components/              # Reusable UI components
-├── 
-├── 
-└── 
+
 
 
 
