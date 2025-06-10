@@ -1,6 +1,7 @@
-//"use client";
+"use client";
 
 import Rating from "./Rating";
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -23,6 +24,7 @@ const FreelancerCard = ({ freelancer }: { freelancer: freelancer }) => {
   }
   return (
     <>
+      {}
       <div key={freelancer.id} className="border rounded-lg shadow p-4">
         {/* image and wishlist icon */}
         <div className="h-50 w-full relative">
