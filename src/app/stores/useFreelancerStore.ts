@@ -27,13 +27,31 @@ type FreelancerStore = {
   sortBy: SortKey;
   setSortBy: (key: SortKey) => void;
   setFreelancers: (data: Freelancer[]) => void;
+  sortedFreelancers: () => Freelancer[];
 };
 
-export const useFreelancerStore = create<FreelancerStore>((set) => ({
+export const useFreelancerStore = create<FreelancerStore>((set, get) => ({
   freelancers: [],
   Category: "UI/UX Designer",
   setCategory: (category: string) => set({ Category: category }),
   sortBy: "most-rated",
   setSortBy: (key) => set({ sortBy: key }),
   setFreelancers: (data) => set({ freelancers: data }),
+  sortedFreelancers: () => {
+    const { freelancers, sortBy } = get();
+    return [...freelancers].sort((a, b) => {
+      switch (sortBy) {
+        case "most-rated":
+          return b.rate - a.rate;
+        case "lowest-rated":
+          return a.rate - b.rate;
+        case "highest-price":
+          return b.price - a.price;
+        case "lowest-price":
+          return a.price - b.price;
+        default:
+          return 0;
+      }
+    });
+  },
 }));

@@ -24,27 +24,13 @@ interface freelancer {
 }
 
 const FreelancingPage = () => {
-  const { freelancers, sortBy, setFreelancers, Category } =
-    useFreelancerStore();
+  const { setFreelancers, sortedFreelancers, Category } = useFreelancerStore();
 
   useEffect(() => {
     setFreelancers(mockData);
   }, [setFreelancers]);
 
-  const sorted: freelancer[] = [...freelancers].sort((a, b) => {
-    switch (sortBy) {
-      case "most-rated":
-        return b.rate - a.rate;
-      case "lowest-rated":
-        return a.rate - b.rate;
-      case "highest-price":
-        return b.price - a.price;
-      case "lowest-price":
-        return a.price - b.price;
-      default:
-        return 0;
-    }
-  });
+  const sorted: freelancer[] = sortedFreelancers();
   //const freelancers = freelancersData;
   const freelancersList = sorted.map((freelancer: freelancer) => {
     return <FreelancerCard freelancer={freelancer} key={freelancer.id} />;
