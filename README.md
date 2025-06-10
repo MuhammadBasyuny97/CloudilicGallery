@@ -10,6 +10,7 @@ A responsive web application built with Next.js, Tailwind CSS, and TypeScript. I
 - **Next.js 15 (App Router)**
 - **TypeScript**
 - **Tailwind CSS**
+- **Zustand**
 - **Lucide React** – Icons
 - **Vercel** – Deployment
 
