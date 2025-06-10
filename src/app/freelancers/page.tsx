@@ -1,10 +1,10 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import SearchBar from "./components/SearchBar";
-import FreelancerCard from "./components/FreelancerCard";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import SearchBar from "../components/SearchBar";
+import FreelancerCard from "../components/FreelancerCard";
 import freelancersData from "../utility/freelancersData.json";
-import CategoryScroll from "./components/CategoryScroll";
-import Filtering from "./components/Filtering";
+import CategoryScroll from "../components/CategoryScroll";
+import Filtering from "../components/Filtering";
 
 const FreelancingPage = () => {
   const freelancers = freelancersData;

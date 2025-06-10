@@ -1,13 +1,14 @@
 "use client";
 import React from "react";
-import { footerElements } from "../utility/footerElements";
-import { socialMedia } from "../utility/SocialMedia";
+import { footerElements } from "../freelancers/utility/footerElements";
+import { socialMedia } from "../freelancers/utility/SocialMedia";
+
 import { useState } from "react";
 
 /**
  * Footer component, renders the footer elements and social media links.
  *
- * @returns {JSX.Element} The footer component.
+ * er component.
  */
 const Footer = () => {
   const [Language, setLanguage] = useState("");

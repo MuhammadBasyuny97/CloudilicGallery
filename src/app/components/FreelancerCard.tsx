@@ -2,6 +2,7 @@
 
 import Rating from "./Rating";
 import Link from "next/link";
+import Image from "next/image";
 
 type freelancer = {
   id: number;
@@ -30,12 +31,20 @@ const FreelancerCard = ({ freelancer }: { freelancer: freelancer }) => {
             className="rounded-md mb-2 h-24 w-full h-full"
           />
           <div className="absolute cursor-pointer top-2 right-2 w-8 h-8 bg-white flex justify-center items-center ">
-            <img src="/heart.png" className="w-5 h-5 " />
+            <Image
+              alt="wishlist"
+              width={5}
+              height={5}
+              src="/heart.png"
+              className="w-5 h-5 "
+            />
           </div>
         </div>
         {/* freelancer info */}
         <div className="flex items-center gap-1.5 m-3">
-          <img
+          <Image
+            width={10}
+            height={10}
             src={freelancer.image}
             alt="profile"
             className="w-10 h-10 rounded-b-full"

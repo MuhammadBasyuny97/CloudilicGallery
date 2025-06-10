@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Mail, BellRing, ShoppingCart } from "lucide-react";
+import Image from "next/image";
 
 const Icons = () => {
   return (
@@ -9,9 +10,11 @@ const Icons = () => {
       <Mail className="cursor-pointer" />
       <BellRing className="cursor-pointer" />
       <ShoppingCart className="cursor-pointer" />
-      <img
+      <Image
         src="/freelancer.png"
         alt="profile"
+        width={10}
+        height={10}
         className="w-10 h-10 cursor-pointer rounded-b-full"
       />
     </div>
