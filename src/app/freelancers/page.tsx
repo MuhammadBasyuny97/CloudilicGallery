@@ -37,7 +37,7 @@ const FreelancingPage = () => {
   });
   return (
     <>
-      <div className="container mx-auto">
+      <div className=" container mx-auto">
         <header className="p-4 ">
           <Header />
         </header>
